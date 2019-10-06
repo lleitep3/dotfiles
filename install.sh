@@ -12,4 +12,5 @@ source config/vscode.sh
 source config/docker.sh
 source config/nvm.sh
 source config/npm.sh
+source config/git.sh
 source config/spotify.sh
