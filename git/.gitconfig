@@ -1,0 +1,35 @@
+[credential "https://github.com"]
+        username = lleitep3
+[user]
+
+	name = Leandro Leite
+	email = leandro@leandroleite.dev
+	username = lleitep3
+[core]
+	editor = vim
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	excludesfile = ~/.gitignore
+[web]
+	browser = google-chrome
+[color]
+	ui = auto
+[push]
+	default = matching
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+[diff]
+	tool = code
+[difftool]
+	prompt = false
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true

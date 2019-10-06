@@ -1,0 +1,38 @@
+{
+  "workbench.colorTheme": "Quiet Light",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "window.zoomLevel": 2,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "editor.wordWrapColumn": 120,
+  "editor.maxTokenizationLineLength": 40000,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": true
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.jediEnabled": false,
+  "git.autofetch": true,
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  }
+}
