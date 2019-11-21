@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 
-apt install vim git curl terminator tig zsh -y
-
-# OH MY ZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+apt install vim git curl terminator tig zsh htop -y
 
 # NVM
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh)"
@@ -11,12 +8,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install
 # NODE + NPM
 nvm install stable
 nvm use stable
-
-# Z command
-echo "source ~/.dotfiles/z.sh" >> ~/.zshrc
-
-# Alias
-echo "source ~/.dotfiles/alias.sh" >> ~/.zshrc
 
 # Docker
 sudo apt-get remove docker docker-engine docker.io
@@ -36,4 +27,8 @@ sudo add-apt-repository \
 
 sudo apt-get update
 sudo apt-get install docker-ce
+
+
+# OH MY ZSH
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
